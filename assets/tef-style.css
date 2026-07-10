@@ -1,0 +1,47 @@
+.tef-entrants {
+	margin: 1.5em 0;
+}
+
+.tef-entrants-title {
+	margin-bottom: 0.5em;
+}
+
+.tef-entrants-table {
+	width: 100%;
+	border-collapse: collapse;
+	font-size: 0.95em;
+}
+
+.tef-entrants-table th,
+.tef-entrants-table td {
+	text-align: left;
+	padding: 8px 12px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.tef-entrants-table th {
+	font-weight: 600;
+	border-bottom-width: 2px;
+}
+
+.tef-entrants-table .tef-entrants-num {
+	width: 1%;
+	white-space: nowrap;
+	opacity: 0.6;
+}
+
+.tef-entrants-table tbody tr:hover {
+	background: rgba(0, 0, 0, 0.03);
+}
+
+.tef-entrants-empty,
+.tef-entrants-error {
+	opacity: 0.7;
+	font-style: italic;
+}
+
+.tef-entrants-count {
+	margin-top: 0.5em;
+	font-size: 0.85em;
+	opacity: 0.7;
+}
